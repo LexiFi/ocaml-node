@@ -1,5 +1,7 @@
 open Js
 
+[@@@js.scope Import.net]
+
 module BlockList : sig
   type t
 
