@@ -215,7 +215,7 @@ module Socket : sig
       [@@js.builder]
   end
 
-  val create : ?options:Options.t -> unit -> t [@@js.builder]
+  val create: ?options:Options.t -> unit -> t [@@js.new "Socket"]
 end
 
 module Server : sig
